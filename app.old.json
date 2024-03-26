@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "KSP Sinar Pelita Rancaekek",
+    "slug": "DotsCustomerV2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://mobile-customer.dotsco.re/images/logo.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "https://mobile-customer.dotsco.re/images/logo-login/gotong-royong.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "https://mobile-customer.dotsco.re/images/logo-login/gotong-royong.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.qubeee.DotsCustomerV2"
+    },
+    "web": {
+      "favicon": "./assets/favicon.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ead00677-0d96-436c-badc-d48737d07257"
+      }
+    }
+  }
+}

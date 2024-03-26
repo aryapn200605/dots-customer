@@ -1,0 +1,208 @@
+@url = https://mobile-customer.dotsco.re/api
+# @url = http://192.168.18.100:8000/api
+@token = 541|XFHQMel8L0hMNsAaSg28LpSLJbsB2TpPIwNFdnYtdc166b4d
+### ===
+POST {{url}}/login
+Content-Type: application/json
+
+{
+    "username" : "user1",
+    "password" : "password123",
+    "tenantID" : "ksp_spb",
+    "clientType" : "CUSTOMER"
+}
+
+### ===
+POST {{url}}/change-password
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "old_password" : "ksp_pelita_rancaekek_0006018",
+    "new_password" : "password123"
+}
+
+### ===
+GET {{url}}/tenants
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+POST {{url}}/create-reservation
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "destinationService" : "001",
+    "reason" : "Menjenguk",
+    "branchId" : "001",
+    "attendAtStart" : "2023-09-18 12:00:00.048+07",
+    "attendAtEnd" : "2023-09-18 15:00:00.048+07",
+    "time" : "0100-1900"
+}
+
+###
+GET {{url}}/reservation/1697548721385241143
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/office
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+@saving = 0
+GET {{url}}/saving
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/saving/product-type
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/saving/{{saving}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/saving/history/{{saving}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+POST {{url}}/saving
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "productType" : "02",
+    "currentBalance" : "230000"
+}
+
+### ===
+POST {{url}}/saving/deposit
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "savingId" : "{{saving}}",
+    "amount" : "1000000",
+    "paymentMethodId" : "1698295258548618648",
+    "recipient" : "Namaaaa"
+}
+
+### ===
+@loan = 00104010000101
+GET {{url}}/loan
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/loan/{{loan}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/loan/product-type
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/loan/bill/{{loan}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/loan/now/{{loan}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+POST {{url}}/loan
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "productType" : "02",
+    "currentBalance" : "200000",
+    "period" : "4"
+}
+
+### ===
+POST {{url}}/loan/repay
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "loanId" : "{{loan}}",
+    "amount" : "1000000",
+    "paymentMethodId" : "01299",
+    "recipient" : "DANA"
+}
+
+### 
+POST {{url}}/loan/topup
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "loanId" : "{{loan}}",
+    "amount" : "1000000",
+    "reason" : "Halooo"
+}
+
+### ===
+@deposit = 0
+GET {{url}}/deposit
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/deposit/{{deposit}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/deposit/product-type
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+POST {{url}}/deposit
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "productType" : "03",
+    "currentBalance" : "200000"
+}
+
+### ===
+GET {{url}}/notification
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/notification/1699001478869365151
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/image
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET http://192.168.18.100:8000/images/2023-10-18_051920_BPR_Kreasi_Nusantara_Dev.jpeg
+
+### ===
+GET {{url}}/payment-method
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### ===
+GET {{url}}/check-token
+Authorization: Bearer {{token}}

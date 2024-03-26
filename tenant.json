@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "public_id": "ksp_spr",
+    "identity": "sinar_pelita",
+    "name": "KSP Sinar Pelita",
+    "global_type": 1
+  },
+  {
+    "id": 2,
+    "public_id": "ksp_gr",
+    "identity": "gotong_royong",
+    "name": "KSP Gotong Royong",
+    "global_type": 1
+  },
+  {
+    "id": 3,
+    "public_id": "ksp_sim",
+    "identity": "serdang_indah_mandiri",
+    "name": "KSP Serdang Indah Mandiri",
+    "global_type": 1
+  },
+  {
+    "id": 4,
+    "public_id": "ksp_sm",
+    "identity": "sinar_murni",
+    "name": "KSP Sinar Murni",
+    "global_type": 1
+  },
+  {
+    "id": 5,
+    "public_id": "ksp_pj",
+    "identity": "pelita_jaya",
+    "name": "KSP Pelita Jaya",
+    "global_type": 1
+  },
+  {
+    "id": 6,
+    "public_id": "ksp_ps",
+    "identity": "pelita_sejahtera",
+    "name": "KSP Pelita Sejahtera",
+    "global_type": 1
+  },
+  {
+    "id": 7,
+    "public_id": "ksp_ja",
+    "identity": "jaya_abadi",
+    "name": "KSP Jaya Abadi",
+    "global_type": 1
+  },
+  {
+    "id": 8,
+    "public_id": "ksp_pm",
+    "identity": "pelita_mekar",
+    "name": "KSP Pelita Mekar",
+    "global_type": 1
+  },
+  {
+    "id": 9,
+    "public_id": "ksp_sk",
+    "identity": "sinar_kandaga",
+    "name": "KSP Sinar Kandaga",
+    "global_type": 1
+  },
+  {
+    "id": 10,
+    "public_id": "ksp_cam",
+    "identity": "cipta_abadi_mutiara",
+    "name": "KSP Cipta Abadi Mutiara",
+    "global_type": 1
+  },
+  {
+    "id": 11,
+    "public_id": "ksp_smk",
+    "identity": "sinar_mas_kalimantan",
+    "name": "KSP Sinar Mas Kalimantan",
+    "global_type": 1
+  },
+  {
+    "id": 12,
+    "public_id": "ksp_stm",
+    "identity": "sinar_tama_sejahtera",
+    "name": "KSP Sinar Tama Sejahtera",
+    "global_type": 1
+  },
+  {
+    "id": 13,
+    "public_id": "ksp_sj",
+    "identity": "sinar_jaya",
+    "name": "KSP Sinar Jaya",
+    "global_type": 1
+  },
+  {
+    "id": 14,
+    "public_id": "ksp_sb",
+    "identity": "sinar_berlian",
+    "name": "KSP Sinar Berlian",
+    "global_type": 1
+  },
+  {
+    "id": 15,
+    "public_id": "ksp_spb",
+    "identity": "sinar_pelita_bandung",
+    "name": "KSP Sinar Pelita Bandung",
+    "global_type": 1
+  },
+  {
+    "id": 16,
+    "public_id": "ksp_ss",
+    "identity": "stabat_sejahtera",
+    "name": "KSP Stabat Sejahtera",
+    "global_type": 1
+  },
+  {
+    "id": 17,
+    "public_id": "ksp_sem",
+    "identity": "sehat_ekonomi_mandiri",
+    "name": "KSP Sehat Ekonomi Mandiri",
+    "global_type": 1
+  },
+  {
+    "id": 18,
+    "public_id": "ksp_spmg",
+    "identity": "spm_gresik",
+    "name": "KSP SPM Gresik",
+    "global_type": 1
+  },
+  {
+    "id": 19,
+    "public_id": "ksp_spms",
+    "identity": "spm_surabaya",
+    "name": "KSP SPM Surabaya",
+    "global_type": 1
+  },
+  {
+    "id": 20,
+    "public_id": "ksp_spmc",
+    "identity": "spm_cijerah",
+    "name": "KSP SPM Cijerah",
+    "global_type": 1
+  },
+  {
+    "id": 21,
+    "public_id": "ksp_spmbd",
+    "identity": "spm_bandung",
+    "name": "KSP SPM Bandung",
+    "global_type": 1
+  },
+  {
+    "id": 22,
+    "public_id": "ksp_spmd",
+    "identity": "spm_denpasar",
+    "name": "KSP SPM Denpasar",
+    "global_type": 1
+  },
+  {
+    "id": 23,
+    "public_id": "ksp_spmpg",
+    "identity": "spm_palembang",
+    "name": "KSP SPM Palembang",
+    "global_type": 1
+  },
+  {
+    "id": 24,
+    "public_id": "ksp_spmbg",
+    "identity": "spm_betung",
+    "name": "KSP SPM Betung",
+    "global_type": 1
+  },
+  {
+    "id": 25,
+    "public_id": "ksp_spmpb",
+    "identity": "spm_pekanbaru",
+    "name": "KSP SPM Pekanbaru",
+    "global_type": 1
+  },
+  {
+    "id": 26,
+    "public_id": "ksp_spmm",
+    "identity": "spm_mojokerto",
+    "name": "KSP SPM Mojokerto",
+    "global_type": 1
+  },
+  {
+    "id": 27,
+    "public_id": "bpr_kn_dev",
+    "identity": "bpr_sukma",
+    "name": "BPR Sukma",
+    "global_type": 2
+  },
+  {
+    "id": 28,
+    "public_id": "ksp_natamaro",
+    "identity": "natamaro_jaya_mandiri",
+    "name": "KSP Natamaro",
+    "global_type": 1
+  }
+]
